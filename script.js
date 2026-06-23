@@ -35,3 +35,13 @@ function submitForm(){
     document.getElementById("success").classList.remove("hidden");
 
 }
+
+function openGift(){
+
+    document.querySelector(".hero").style.display = "none";
+
+    document.getElementById("gift").classList.remove("hidden");
+
+    document.getElementById("music").play();
+
+}
